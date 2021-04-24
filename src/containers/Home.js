@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import classes from './Home.module.css'
+import axios from 'axios'
+
 import DisplayCases from '../components/DisplayCases/DisplayCases'
 
 class Home extends Component {
@@ -11,7 +13,8 @@ class Home extends Component {
     this.state = {
       country: '',
       date: '',
-      shouldRenderCases: false
+      shouldRenderCases: false,
+      totalCountries: []
     }
     this.input = React.createRef()
     this.date = React.createRef()
@@ -39,7 +42,7 @@ class Home extends Component {
         <h1>COVID-19 Tracker App</h1>
         <div className={classes.form}>
         <form onSubmit={this.handleSubmit}>
-          {/* <input type='text' ref={input => this.input = input} placeholder='Country' required /> */}
+          <input type='text' ref={input => this.input = input} placeholder='Country' required />
           <input type='date' ref={date => this.date = date} placeholder='Date' required/>
           <button type='submit'>Submit</button>
         </form>

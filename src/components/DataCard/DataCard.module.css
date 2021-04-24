@@ -1,0 +1,14 @@
+.DataCard {
+	width: 60%;
+	margin: 0px 8px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: -1px 5px 38px 0px rgba(0, 0, 0, 0.37);
+	-webkit-box-shadow: -1px 5px 38px 0px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: -1px 5px 38px 0px rgba(0, 0, 0, 0.37);
+}
+
+.name {
+	font-weight: 800;
+}

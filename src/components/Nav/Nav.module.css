@@ -1,0 +1,22 @@
+.Nav {
+	display: flex;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: space-around;
+	height: 50px;
+	color: white;
+	background-color: rgb(48, 48, 48);
+}
+
+.links {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.links .link {
+	color: white;
+	text-decoration: none;
+}

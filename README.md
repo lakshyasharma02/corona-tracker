@@ -1,6 +1,6 @@
 # COVID-19 Tracker App
 
-A COVID-19 Tracker App implemented with ReactJS along with the count-up library and a COVID-19 API. Users can enter a country and a date to view new cases, active cases, recovered cases and the total number of cases.
+A COVID-19 Tracker App implemented with **ReactJS** along with the **count-up package** and a **COVID-19 API**. Users can enter a country and a date to view new cases, active cases, recovered cases and the total number of cases.
 
 ![Animation](https://user-images.githubusercontent.com/67498282/116808096-a47a1980-ab54-11eb-882c-9ddaca30b331.gif)
 
